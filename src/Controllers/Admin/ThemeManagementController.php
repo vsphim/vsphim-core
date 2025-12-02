@@ -6,7 +6,7 @@ use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Illuminate\Support\Facades\Route;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 use Illuminate\Http\Request;
-use Vsphim\\Core\Models\Theme;
+use Vsphim\Core\Models\Theme;
 use Prologue\Alerts\Facades\Alert;
 
 class ThemeManagementController extends CrudController

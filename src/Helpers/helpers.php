@@ -2,7 +2,7 @@
 
 use Backpack\Settings\app\Models\Setting;
 use Illuminate\Support\Facades\Cache;
-use Vsphim\\Core\Models\Theme;
+use Vsphim\Core\Models\Theme;
 
 if (!function_exists('get_theme_option')) {
     function get_theme_option($key, $fallback = null)

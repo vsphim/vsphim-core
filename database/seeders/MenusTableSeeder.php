@@ -9,7 +9,7 @@ use Vsphim\\Core\Models\Category;
 use Vsphim\\Core\Models\Menu;
 use Vsphim\\Core\Models\Region;
 use Vsphim\\Core\Models\Catalog;
-use Vsphim\\Core\Models\Theme;
+use Vsphim\Core\Models\Theme;
 
 class MenusTableSeeder extends Seeder
 {

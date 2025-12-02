@@ -5,7 +5,7 @@ namespace Vsphim\\Core\Controllers\Admin;
 use Illuminate\Routing\Controller;
 use Vsphim\\Core\Models\Movie;
 use Vsphim\\Core\Models\Episode;
-use Vsphim\\Core\Models\Theme;
+use Vsphim\Core\Models\Theme;
 use Vsphim\\Core\Models\User;
 
 class AdminController extends Controller
