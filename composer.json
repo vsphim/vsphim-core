@@ -33,20 +33,20 @@
     },
     "autoload": {
         "psr-4": {
-            "Vsphim\Core\\": "src/",
-            "Vsphim\Core\\Database\\Factories\\": "database/factories/",
-            "Vsphim\Core\\Database\\Seeders\\": "database/seeders/"
+            "Vsphim\\Core\\": "src/",
+            "Vsphim\\Core\\Database\\Factories\\": "database/factories/",
+            "Vsphim\\Core\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vsphim\Core\\Tests\\": "tests/"
+            "Vsphim\\Core\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vsphim\Core\\VsphimServiceProvider"
+                "Vsphim\\Core\\VsphimServiceProvider"
             ]
         }
     },
