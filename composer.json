@@ -1,0 +1,55 @@
+{
+    "name": "vsphim/vsphim-core",
+    "description": "Vsphim's core features - Laravel package for movie CMS",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "cms",
+        "movie",
+        "film",
+        "vsphim",
+        "backpack"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vsphim",
+            "email": "vsphim@vsphim.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^6|^7|^8",
+        "ckfinder/ckfinder-laravel-package": "^3.5",
+        "vsphim/laravel-caching-model": "^1.0.0",
+        "vsphim/crud": "^1.0.0",
+        "vsphim/settings": "^1.0.0",
+        "vsphim/permissionmanager": "^1.0.0",
+        "spatie/laravel-sitemap": "^5.8",
+        "artesaos/seotools": "^v0.22.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vsphim\\Core\\": "src/",
+            "Vsphim\\Core\\Database\\Factories\\": "database/factories/",
+            "Vsphim\\Core\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vsphim\\Core\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vsphim\\Core\\VsphimServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
