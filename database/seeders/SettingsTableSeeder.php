@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Database\Seeders;
+namespace Vsphim\Core\Database\Seeders;
 
 use Backpack\Settings\app\Models\Setting;
 use Illuminate\Database\Seeder;

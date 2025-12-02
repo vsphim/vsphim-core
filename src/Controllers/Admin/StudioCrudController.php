@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
-use Vsphim\\Core\Requests\StudioRequest;
+use Vsphim\Core\Requests\StudioRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsphim\\Core\Models\Studio;
+use Vsphim\Core\Models\Studio;
 
 /**
  * Class StudioCrudController
- * @package Vsphim\\Core\Controllers\Admin
+ * @package Vsphim\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class StudioCrudController extends CrudController
@@ -27,7 +27,7 @@ class StudioCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsphim\\Core\Models\Studio::class);
+        CRUD::setModel(\Vsphim\Core\Models\Studio::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/studio');
         CRUD::setEntityNameStrings('studio', 'studios');
     }

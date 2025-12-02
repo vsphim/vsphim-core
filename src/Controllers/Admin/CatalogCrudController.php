@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
-use Vsphim\\Core\Requests\CatalogRequest;
+use Vsphim\Core\Requests\CatalogRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsphim\\Core\Models\Catalog;
+use Vsphim\Core\Models\Catalog;
 
 /**
  * Class CatalogCrudController
- * @package Vsphim\\Core\Controllers\Admin
+ * @package Vsphim\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class CatalogCrudController extends CrudController
@@ -27,7 +27,7 @@ class CatalogCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsphim\\Core\Models\Catalog::class);
+        CRUD::setModel(\Vsphim\Core\Models\Catalog::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/catalog');
         CRUD::setEntityNameStrings('catalog', 'catalogs');
     }

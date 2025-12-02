@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
-use Vsphim\\Core\Requests\RegionRequest;
+use Vsphim\Core\Requests\RegionRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsphim\\Core\Models\Region;
+use Vsphim\Core\Models\Region;
 
 /**
  * Class RegionCrudController
- * @package Vsphim\\Core\Controllers\Admin
+ * @package Vsphim\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class RegionCrudController extends CrudController
@@ -27,7 +27,7 @@ class RegionCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsphim\\Core\Models\Region::class);
+        CRUD::setModel(\Vsphim\Core\Models\Region::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/region');
         CRUD::setEntityNameStrings('region', 'regions');
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Illuminate\Support\Facades\Route;

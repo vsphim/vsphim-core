@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Traits;
+namespace Vsphim\Core\Traits;
 
 use Illuminate\Support\Str;
 

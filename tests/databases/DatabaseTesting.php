@@ -4,18 +4,18 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
-use Vsphim\\Core\Database\Seeders\CategoriesTableSeeder;
-use Vsphim\\Core\Database\Seeders\SettingsTableSeeder;
-use Vsphim\\Core\Database\Seeders\RegionsTableSeeder;
-use Vsphim\\Core\Database\Seeders\ThemesTableSeeder;
-use Vsphim\\Core\Database\Seeders\MenusTableSeeder;
-use Vsphim\\Core\Models\Actor;
-use Vsphim\\Core\Models\Category;
-use Vsphim\\Core\Models\Director;
-use Vsphim\\Core\Models\Episode;
-use Vsphim\\Core\Models\Movie;
-use Vsphim\\Core\Models\Region;
-use Vsphim\\Core\Models\Tag;
+use Vsphim\Core\Database\Seeders\CategoriesTableSeeder;
+use Vsphim\Core\Database\Seeders\SettingsTableSeeder;
+use Vsphim\Core\Database\Seeders\RegionsTableSeeder;
+use Vsphim\Core\Database\Seeders\ThemesTableSeeder;
+use Vsphim\Core\Database\Seeders\MenusTableSeeder;
+use Vsphim\Core\Models\Actor;
+use Vsphim\Core\Models\Category;
+use Vsphim\Core\Models\Director;
+use Vsphim\Core\Models\Episode;
+use Vsphim\Core\Models\Movie;
+use Vsphim\Core\Models\Region;
+use Vsphim\Core\Models\Tag;
 
 class DatabaseSeeder extends Seeder
 {

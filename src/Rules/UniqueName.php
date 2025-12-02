@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Rules;
+namespace Vsphim\Core\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Facades\DB;

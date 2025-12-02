@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Middleware;
+namespace Vsphim\Core\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

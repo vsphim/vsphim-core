@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsphim\\Core;
+namespace Vsphim\Core;
 
 use Exception;
-use Vsphim\\Core\Models\Theme as ThemeModel;
+use Vsphim\Core\Models\Theme as ThemeModel;
 
 class Theme
 {

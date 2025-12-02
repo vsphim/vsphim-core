@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
-use Vsphim\\CoreHttp\Requests\MenuRequest;
+use Vsphim\CoreHttp\Requests\MenuRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsphim\\Core\Models\Menu;
+use Vsphim\Core\Models\Menu;
 
 /**
  * Class MenuCrudController
- * @package Vsphim\\CoreHttp\Controllers\Admin
+ * @package Vsphim\CoreHttp\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class MenuCrudController extends CrudController
@@ -20,7 +20,7 @@ class MenuCrudController extends CrudController
     use \Backpack\CRUD\app\Http\Controllers\Operations\DeleteOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\ReorderOperation;
 
-    use \Vsphim\\Core\Traits\Operations\BulkDeleteOperation {
+    use \Vsphim\Core\Traits\Operations\BulkDeleteOperation {
         bulkDelete as traitBulkDelete;
     }
 

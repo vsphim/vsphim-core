@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsphim\\Core\Database\Factories;
+namespace Vsphim\Core\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Vsphim\\Core\Models\Region;
+use Vsphim\Core\Models\Region;
 use Illuminate\Support\Str;
 
 class RegionFactory extends Factory

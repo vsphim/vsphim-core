@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Middleware;
+namespace Vsphim\Core\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as Middleware;
 

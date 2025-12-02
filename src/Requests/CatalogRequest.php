@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Requests;
+namespace Vsphim\Core\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

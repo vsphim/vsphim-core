@@ -1,23 +1,23 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
-use Vsphim\\Core\Requests\MovieRequest;
+use Vsphim\Core\Requests\MovieRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use Vsphim\\Core\Models\Actor;
-use Vsphim\\Core\Models\Director;
-use Vsphim\\Core\Models\Movie;
-use Vsphim\\Core\Models\Region;
-use Vsphim\\Core\Models\Studio;
-use Vsphim\\Core\Models\Category;
-use Vsphim\\Core\Models\Tag;
+use Vsphim\Core\Models\Actor;
+use Vsphim\Core\Models\Director;
+use Vsphim\Core\Models\Movie;
+use Vsphim\Core\Models\Region;
+use Vsphim\Core\Models\Studio;
+use Vsphim\Core\Models\Category;
+use Vsphim\Core\Models\Tag;
 
 /**
  * Class MovieCrudController
- * @package Vsphim\\Core\Controllers\Admin
+ * @package Vsphim\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class MovieCrudController extends CrudController
@@ -34,7 +34,7 @@ class MovieCrudController extends CrudController
     }
     use \Backpack\CRUD\app\Http\Controllers\Operations\ShowOperation;
 
-    use \Vsphim\\Core\Traits\Operations\BulkDeleteOperation {
+    use \Vsphim\Core\Traits\Operations\BulkDeleteOperation {
         bulkDelete as traitBulkDelete;
     }
 
@@ -45,7 +45,7 @@ class MovieCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsphim\\Core\Models\Movie::class);
+        CRUD::setModel(\Vsphim\Core\Models\Movie::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/movie');
         CRUD::setEntityNameStrings('movie', 'movies');
         CRUD::setCreateView('vsphim::movies.create',);

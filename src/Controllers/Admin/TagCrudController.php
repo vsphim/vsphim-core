@@ -1,11 +1,11 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsphim\\Core\Models\Tag;
-use Vsphim\\Core\Requests\TagRequest;
+use Vsphim\Core\Models\Tag;
+use Vsphim\Core\Requests\TagRequest;
 
 /**
  * Class TagCrudController
@@ -27,7 +27,7 @@ class TagCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsphim\\Core\Models\Tag::class);
+        CRUD::setModel(\Vsphim\Core\Models\Tag::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/tag');
         CRUD::setEntityNameStrings('tag', 'tags');
     }

@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
-use Vsphim\\Core\Requests\DirectorRequest;
+use Vsphim\Core\Requests\DirectorRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsphim\\Core\Models\Director;
+use Vsphim\Core\Models\Director;
 
 /**
  * Class DirectorCrudController
- * @package Vsphim\\Core\Controllers\Admin
+ * @package Vsphim\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class DirectorCrudController extends CrudController
@@ -27,7 +27,7 @@ class DirectorCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsphim\\Core\Models\Director::class);
+        CRUD::setModel(\Vsphim\Core\Models\Director::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/director');
         CRUD::setEntityNameStrings('director', 'directors');
     }

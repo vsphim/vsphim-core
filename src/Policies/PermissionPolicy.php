@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Policies;
+namespace Vsphim\Core\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
 use Backpack\PermissionManager\app\Models\Permission;

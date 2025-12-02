@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
-use Vsphim\\Core\Requests\ActorRequest;
+use Vsphim\Core\Requests\ActorRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsphim\\Core\Models\Actor;
+use Vsphim\Core\Models\Actor;
 
 /**
  * Class ActorCrudController
- * @package Vsphim\\Core\Controllers\Admin
+ * @package Vsphim\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class ActorCrudController extends CrudController
@@ -27,7 +27,7 @@ class ActorCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsphim\\Core\Models\Actor::class);
+        CRUD::setModel(\Vsphim\Core\Models\Actor::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/actor');
         CRUD::setEntityNameStrings('actor', 'actors');
     }

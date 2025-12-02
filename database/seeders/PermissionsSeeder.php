@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Database\Seeders;
+namespace Vsphim\Core\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;

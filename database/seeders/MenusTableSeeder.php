@@ -1,14 +1,14 @@
 <?php
 
-namespace Vsphim\\Core\Database\Seeders;
+namespace Vsphim\Core\Database\Seeders;
 
 use Backpack\Settings\app\Models\Setting;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Vsphim\\Core\Models\Category;
-use Vsphim\\Core\Models\Menu;
-use Vsphim\\Core\Models\Region;
-use Vsphim\\Core\Models\Catalog;
+use Vsphim\Core\Models\Category;
+use Vsphim\Core\Models\Menu;
+use Vsphim\Core\Models\Region;
+use Vsphim\Core\Models\Catalog;
 use Vsphim\Core\Models\Theme;
 
 class MenusTableSeeder extends Seeder

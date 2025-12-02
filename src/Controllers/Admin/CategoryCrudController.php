@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
-use Vsphim\\Core\Requests\CategoryRequest;
+use Vsphim\Core\Requests\CategoryRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsphim\\Core\Models\Category;
+use Vsphim\Core\Models\Category;
 
 /**
  * Class CategoryCrudController
- * @package Vsphim\\Core\Controllers\Admin
+ * @package Vsphim\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class CategoryCrudController extends CrudController
@@ -27,7 +27,7 @@ class CategoryCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsphim\\Core\Models\Category::class);
+        CRUD::setModel(\Vsphim\Core\Models\Category::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/category');
         CRUD::setEntityNameStrings('category', 'categories');
     }

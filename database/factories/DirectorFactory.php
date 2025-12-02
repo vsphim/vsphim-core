@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsphim\\Core\Database\Factories;
+namespace Vsphim\Core\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Vsphim\\Core\Models\Director;
+use Vsphim\Core\Models\Director;
 use Illuminate\Support\Str;
 
 class DirectorFactory extends Factory

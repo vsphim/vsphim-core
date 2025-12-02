@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
@@ -10,14 +10,14 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\URL as LARURL;
 use Illuminate\Support\Facades\File;
 use Carbon\Carbon;
-use Vsphim\\Core\Models\Actor;
-use Vsphim\\Core\Models\Catalog;
-use Vsphim\\Core\Models\Category;
-use Vsphim\\Core\Models\Director;
-use Vsphim\\Core\Models\Movie;
-use Vsphim\\Core\Models\Region;
-use Vsphim\\Core\Models\Studio;
-use Vsphim\\Core\Models\Tag;
+use Vsphim\Core\Models\Actor;
+use Vsphim\Core\Models\Catalog;
+use Vsphim\Core\Models\Category;
+use Vsphim\Core\Models\Director;
+use Vsphim\Core\Models\Movie;
+use Vsphim\Core\Models\Region;
+use Vsphim\Core\Models\Studio;
+use Vsphim\Core\Models\Tag;
 use Prologue\Alerts\Facades\Alert;
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\SitemapIndex;

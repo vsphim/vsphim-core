@@ -1,12 +1,12 @@
 <?php
 
-namespace Vsphim\\Core\Controllers\Admin;
+namespace Vsphim\Core\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Illuminate\Support\Facades\Route;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 use Illuminate\Support\Facades\Artisan;
-use Vsphim\\Core\Models\Plugin;
+use Vsphim\Core\Models\Plugin;
 use Prologue\Alerts\Facades\Alert;
 
 class PluginController extends CrudController

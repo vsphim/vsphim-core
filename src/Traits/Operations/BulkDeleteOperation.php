@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\Core\Traits\Operations;
+namespace Vsphim\Core\Traits\Operations;
 
 use Illuminate\Support\Facades\Route;
 

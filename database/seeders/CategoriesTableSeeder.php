@@ -1,10 +1,10 @@
 <?php
 
-namespace Vsphim\\Core\Database\Seeders;
+namespace Vsphim\Core\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Vsphim\\Core\Models\Category;
+use Vsphim\Core\Models\Category;
 
 class CategoriesTableSeeder extends Seeder
 {

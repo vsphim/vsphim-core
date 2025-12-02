@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsphim\\Core\Requests;
+namespace Vsphim\Core\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Vsphim\\Core\Rules\UniqueName;
+use Vsphim\Core\Rules\UniqueName;
 
 class ActorRequest extends FormRequest
 {

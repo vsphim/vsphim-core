@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsphim\\Core\Database\Factories;
+namespace Vsphim\Core\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Vsphim\\Core\Models\Category;
+use Vsphim\Core\Models\Category;
 use Illuminate\Support\Str;
 
 class CategoryFactory extends Factory

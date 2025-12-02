@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Vsphim\\Core\Middleware;
+namespace Vsphim\Core\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
